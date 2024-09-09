@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #div1{
+            background-color: rgb(147, 215, 235);
+              border-radius: 50px; /* Slightly reduce border-radius to avoid text cut-off */
+              padding: 10px 10px; 
+             box-sizing: border-box;
+              box-shadow: 0px 0px 10px ;
+              max-width: 50%;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="div1"></div>
+    <script>
+        let h1=document.createElement('h1')
+        div1.appendChild(h1)
+        h1.innerHTML="HAPPY  GANESH CHATURTHI";
+        h1.style.fontFamily="cursive";
+        h1.style.color="rgb(236,120,191)"
+        h1.style.textAlign="center"
+        // h1.style.marginLeft="10px"
+        let img=document.createElement('img')
+        img.setAttribute('src',"https://i.pinimg.com/originals/b7/97/c6/b797c6bd2eaf7f1f044ea72fdfa4e62f.jpg");
+        img.setAttribute('height',"200px")
+        img.setAttribute('width','200px')
+        img.style.borderRadius="30px";
+        img.style.boxShadow="0px 0px 50px";
+        img.style.padding="30px";
+        img.style.marginLeft="30%"
+        div1.appendChild(img)
+         div1.style.border="2px solid grey"
+        let div2=document.createElement('div')
+        document.body.appendChild(div2)
+        let p=document.createElement('p')
+        div1.appendChild(p)
+        p.innerHTML="when you have ganapati bappa in your hearts there is nothing to worry in your life.HAPPY GANESH CHATURTHI to you and your loved ones";
+        p.style.color="blue";
+        p.style.textAlign="center"
+    </script>
+</body>
+</html>
